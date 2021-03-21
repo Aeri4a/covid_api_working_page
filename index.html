@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8"/>
+        <meta name="author" content="Ani4aa"/>
+        <title>COVID19 | Statistics Page</title>
+
+        <link rel="stylesheet" type="text/css" href="style.css"/>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" />
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"/>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    </head>
+    <body>
+        <script src="stable.js"></script>
+        <header>
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="#"><img src="media/logo.png"></a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <i class="fa fa-bars" aria-hidden="true"></i>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                      <li class="nav-item">
+                        <a class="nav-link" href="#information">INFORMATION</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#about">ABOUT</a>
+                      </li>
+                      <li class="nav-item">
+                        <!--<button class="btn-nav contact"><a class="nav-link" href="#">Contact</a></button>-->
+                        <div class="btn-nav"><a class="btn btn-primary btn-small navbar-btn contact" href="#">CONTACT</a>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </nav>
+        </header>
+        <!--Banner-->
+        <section id="banner">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4">
+                        <p class="main-title">COVID</p>
+                        <p class="main-title" style="font-weight: 300; margin-top: -20px;">Statistics page</p>
+                        <p>That text which could be a bit longer</p>
+                    </div>
+                    <div class="col-md-8" style="margin-top: 100px;">
+                        <div class="row">
+                            <div class="col d-flex justify-content-center tilex"><div id="transf1"></div></div>
+                            <div class="col d-flex justify-content-center tilex"><div id="transf2"></div></div>
+                        </div>
+                        <div class="row" style="margin-top: 7px;">
+                            <div class="col d-flex justify-content-center tilex"><div id="transf3"></div></div>
+                            <div class="col d-flex justify-content-center tilex"><div id="transf4"></div></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <svg height="100%" width="100%" id="svg" viewBox="0 0 1440 400" xmlns="http://www.w3.org/2000/svg" class="transition duration-300 ease-in-out delay-150"><defs><linearGradient id="gradient"><stop offset="5%" stop-color="#42378fff"></stop><stop offset="95%" stop-color="#f53844ff"></stop></linearGradient></defs><path d="M 0,400 C 0,400 0,200 0,200 C 159.06666666666666,178.53333333333333 318.1333333333333,157.06666666666666 485,151 C 651.8666666666667,144.93333333333334 826.5333333333333,154.26666666666665 987,165 C 1147.4666666666667,175.73333333333335 1293.7333333333333,187.86666666666667 1440,200 C 1440,200 1440,400 1440,400 Z" stroke="none" stroke-width="0" fill="url(#gradient)" class="transition-all duration-300 ease-in-out delay-150" transform="rotate(-180 720 200)"></path></svg>
+        
+        <!--<img src="media/banner.png" id="wave"/>-->
+
+        <script src="searching.js"></script>
+        <!--Searching-->
+        <section id="searching">
+            <div class="container">
+                <div class="row">
+                    <div class="col d-flex justify-content-center search">
+                        <form class="in_box">
+                            <p>Search by the country</p>
+                            <div class="col d-flex justify-content-center">
+                            <input type="text" id="area" placeholder="Country" required/>
+                            <input type="submit" value="SEARCH" id="searchfor" onclick="search();"/>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!--Data from searching-->
+        <section id="after_searching">
+            <div class="container">
+                <div class="row">
+                    <div class="col d-flex justify-content-center datax"><div id="dt1" style="text-align: center; font-size: 25px;">______</div></div>
+                    <div class="col d-flex justify-content-center datax"><div id="dt2" style="text-align: center; font-size: 25px;">______</div></div>
+                    <div class="col d-flex justify-content-center datax"><div id="dt3" style="text-align: center; font-size: 25px;">______</div></div>
+                    <div class="col d-flex justify-content-center datax"><div id="dt4" style="text-align: center; font-size: 25px;">______</div></div>
+                </div>
+            </div>
+        </section>
+
+        <!--Final informations-->
+        <footer>
+            <a id="about">COVID 19 | INFORMATION PAGE</a>
+            <p>This page was created to learn some new skills</p>
+            <div class="col d-flex justify-content-center">
+                <div class="end_logo"></div>
+                <div class="end_logo"></div>
+                <div class="end_logo"></div>
+            </div>
+            <p>2021 &copy; Designed and created by Ani4aa</p>
+        </footer>
+    </body>
+</html>

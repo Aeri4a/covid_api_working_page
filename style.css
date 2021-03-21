@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
+
+html, body {
+    font-family: 'Montserrat', sans-serif !important;
+    font-weight: 400;
+    background-color: #272727 !important;
+    color: white !important;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.navbar {
+    background-image: linear-gradient(to right, #F53844, #42378F);
+    padding: 0 i !important;
+}
+
+.navbar-brand img {
+    width: 60px;
+    padding-left: 10px;
+}
+
+.navbar-nav li {
+    padding: 0 10px;
+}
+
+.navbar-nav li a {
+    color: white !important;
+    font-weight: 300;
+    float: right;
+    text-align: left;
+}
+
+.fa-bars {
+    color: white;
+    font-size: 30px !important;
+}
+
+.navbar-toggler {
+    border: 0 !important;
+    color: rgba(255, 255, 255, 0.5) !important;
+}
+
+.btn-primary {
+    border: 0 !important;
+    border-radius: 15px !important;
+    background-color: #F53844 !important;
+}
+
+/*Banner customization*/
+
+#banner {
+    background-image: linear-gradient(to right, #F53844, #42378F);
+    color: white;
+}
+
+.main-title {
+    font-size: 50px;
+    font-weight: 700;
+    margin-top: 120px;
+}
+
+.tilex {
+    float: left;
+    width: 330px;
+    height: 170px;
+    background-color: white;
+    margin: 5px;
+    color: #272727;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    font-size: 30px;
+}
+/*
+#wave {
+    width: 100%;
+}
+*/
+.search {
+    margin-bottom: 50px;
+}
+
+.search p {
+    text-align: center;
+    font-size: 45px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.in_box input[type="text"] {
+    background: none;
+    margin: 10px 10px;
+    text-align: center;
+    color: white;
+    border: 4px solid #42378F;
+    border-radius: 20px;
+    padding: 14px 10px;
+    width: 350px;
+    height: 70px;
+    outline: none;
+    transition: 0.25s;
+    font-size: 20px;
+}
+
+.in_box input[type="submit"] {
+    margin: 10px 10px;
+    text-align: center;
+    color: white;
+    border-radius: 20px;
+    border: 4px solid white;
+    background-color: #272727;
+    padding: 14px 10px;
+    width: 150px;
+    height: 70px;
+    outline: none;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.in_box input[type="text"]:focus {
+    width: 380px;
+    border-color: #F53844;
+}
+
+/*.in_box input[type="submit"]:focus {
+    background-image: linear-gradient(to right, #F53844, #42378F);
+} */
+
+.in_box input[type="submit"]:hover {
+    background-image: linear-gradient(to right, #F53844, #42378F);
+}
+
+#after_searching {
+    background-color: #F53844;
+    padding-bottom: 50px;
+}
+
+.datax {
+    margin-top: 50px !important;
+    margin-left: 15px;
+    margin-right: 15px;
+    padding: 25px;
+    height: 150px;
+    background-color: #272727;
+}
+
+footer {
+    text-align: center;
+    background-color: #42378F;
+    padding: 50px 25px;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+footer p {
+    padding-top: 15px;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.end_logo {
+    width: 90px;
+    height: 90px;
+    background-color: white;
+    border-radius: 50px;
+    opacity: 0.5;
+    float: left;
+    margin: 15px;
+}
